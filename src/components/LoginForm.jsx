@@ -22,6 +22,7 @@ try {
   window.location.reload();
 
 } catch(error){
+  console.log(error);
  setError('Ooops, incorrect username or password.');
 }
   };
